@@ -1,0 +1,13 @@
+
+.form-content{
+    text-align: center;
+    width: 25%;
+    min-width: 300px;
+}
+.form_item{
+    text-align: center;
+    width: 80%;
+}
+.form_item #btn{
+    width: 100%;
+}

@@ -1,0 +1,27 @@
+.map_config{
+    position: relative;
+    margin: 0 0 0 0;
+    padding: 0;
+    background: #fff;
+    height: 100%;
+}
+
+#map_root{
+    height: 100%;
+    width: 100%;
+    min-height: 100%;
+    position: relative;
+}
+
+.search_input{
+    background: #fff;
+    opacity: 0.5f;
+    z-index: 9;
+    width: 30%;
+    position: relative;
+    border-radius: 10px;
+}
+
+.ant-row.ant-form-item.form_item{
+    margin-bottom: 5px;
+}

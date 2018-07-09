@@ -1,0 +1,8 @@
+.content {
+    position: relative;
+    margin: 24px 0 0 16px;
+    /* padding: 24px; */
+    background: #fff;
+    overflow: scroll hidden;
+    height: 100%;
+  }

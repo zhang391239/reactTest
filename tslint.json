@@ -1,0 +1,68 @@
+{
+  "extends": [
+    "tslint:recommended",
+    "tslint-react",
+    "tslint-config-prettier"
+  ],
+  "linterOptions": {
+    "exclude": [
+      "config/**/*.js",
+      "node_modules/**/*.ts"
+    ]
+  },
+  "rules": {
+    "ordered-imports": false,
+    "jsx-self-close":false,
+    "member-access": false,
+    "jsx-no-bind":false,
+    "no-console":false,
+    "jsx-no-lambda": false,
+    "no-var-requires": false,
+    "no-empty-interface":false,
+    "no-unused-variable": false,
+    "no-unused-expression": false,
+    "no-shadowed-variable": false,
+    "no-var-keyword": false,
+    "prefer-const":false,
+    "no-string-literal":false,
+    "interface-over-type-literal":true,
+    "prefer-method-signature": false,
+    "object-literal-sort-keys": false,
+    "jsx-no-string-ref":false,
+    "return-undefined": true,
+    "interface-name": [
+      false
+    ]
+  }
+  ,
+  "jsRules": {
+    "arrow-parens": false,
+    "max-line-length": [
+      false
+    ],
+    "indent": [
+      true,
+      "spaces"
+    ],
+    "quotemark": [
+      true,
+      "single",
+      "jsx-double"
+    ],
+    "no-var-requires": false,
+    "member-ordering": [
+      false
+    ],
+    "object-literal-sort-keys": false,
+    "no-shadowed-variable": false,
+    "ordered-imports": [false],
+    "no-console": [
+      false
+    ],
+    "jsx-alignment": [
+      false
+    ],
+    "trailing-comma": [false]
+  }
+}
+  
